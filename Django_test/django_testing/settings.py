@@ -57,6 +57,10 @@ INTERNAL_IPS = [
     "127.0.0.1",
     # ...
 ]
+
+ALLOWED_HOSTS = ['*']
+
+
 ROOT_URLCONF = 'django_testing.urls'
 
 TEMPLATES = [
